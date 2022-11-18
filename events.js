@@ -24,11 +24,11 @@ function toggleAppStatus() {
 // .. View folgt status
 function updateView() {
     if (appStatus) {
-        switchClassName("night");
-        switchBtnTxt("day");
-    } else {
         switchClassName("day");
         switchBtnTxt("night");
+    } else {
+        switchClassName("night");
+        switchBtnTxt("day");
     }
 }
 
