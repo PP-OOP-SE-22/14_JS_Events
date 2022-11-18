@@ -25,10 +25,10 @@ function toggleAppStatus() {
 function updateView() {
     if (appStatus) {
         switchClassName("day");
-        switchBtnTxt("night");
+        switchBtnTxt("Licht aus");
     } else {
         switchClassName("night");
-        switchBtnTxt("day");
+        switchBtnTxt("Licht an");
     }
 }
 
